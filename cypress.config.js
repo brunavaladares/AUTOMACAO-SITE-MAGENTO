@@ -2,6 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
+    supportFile: false,
     baseUrl: 'https://magento.nublue.co.uk/',
     experimentalRunAllSpecs: true,
     specPattern: [
